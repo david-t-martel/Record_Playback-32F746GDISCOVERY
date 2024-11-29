@@ -1,3 +1,4 @@
+
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -67,6 +68,7 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
   */
 void HAL_MspInit(void)
 {
+
   /* USER CODE BEGIN MspInit 0 */
 
   /* USER CODE END MspInit 0 */
@@ -124,6 +126,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
   /* USER CODE BEGIN ADC3_MspInit 1 */
 
   /* USER CODE END ADC3_MspInit 1 */
+
   }
 
 }
@@ -182,6 +185,7 @@ void HAL_CRC_MspInit(CRC_HandleTypeDef* hcrc)
   /* USER CODE BEGIN CRC_MspInit 1 */
 
   /* USER CODE END CRC_MspInit 1 */
+
   }
 
 }
@@ -282,6 +286,7 @@ void HAL_DCMI_MspInit(DCMI_HandleTypeDef* hdcmi)
   /* USER CODE BEGIN DCMI_MspInit 1 */
 
   /* USER CODE END DCMI_MspInit 1 */
+
   }
 
 }
@@ -354,6 +359,7 @@ void HAL_DMA2D_MspInit(DMA2D_HandleTypeDef* hdma2d)
   /* USER CODE BEGIN DMA2D_MspInit 1 */
 
   /* USER CODE END DMA2D_MspInit 1 */
+
   }
 
 }
@@ -438,6 +444,7 @@ void HAL_ETH_MspInit(ETH_HandleTypeDef* heth)
   /* USER CODE BEGIN ETH_MspInit 1 */
 
   /* USER CODE END ETH_MspInit 1 */
+
   }
 
 }
@@ -709,6 +716,7 @@ void HAL_LTDC_MspInit(LTDC_HandleTypeDef* hltdc)
   /* USER CODE BEGIN LTDC_MspInit 1 */
 
   /* USER CODE END LTDC_MspInit 1 */
+
   }
 
 }
@@ -841,6 +849,7 @@ void HAL_QSPI_MspInit(QSPI_HandleTypeDef* hqspi)
   /* USER CODE BEGIN QUADSPI_MspInit 1 */
 
   /* USER CODE END QUADSPI_MspInit 1 */
+
   }
 
 }
@@ -911,6 +920,7 @@ void HAL_RTC_MspInit(RTC_HandleTypeDef* hrtc)
   /* USER CODE BEGIN RTC_MspInit 1 */
 
   /* USER CODE END RTC_MspInit 1 */
+
   }
 
 }
@@ -1028,6 +1038,7 @@ void HAL_SD_MspInit(SD_HandleTypeDef* hsd)
   /* USER CODE BEGIN SDMMC1_MspInit 1 */
 
   /* USER CODE END SDMMC1_MspInit 1 */
+
   }
 
 }
@@ -1120,6 +1131,7 @@ void HAL_SPDIFRX_MspInit(SPDIFRX_HandleTypeDef* hspdifrx)
   /* USER CODE BEGIN SPDIFRX_MspInit 1 */
 
   /* USER CODE END SPDIFRX_MspInit 1 */
+
   }
 
 }
@@ -1236,6 +1248,7 @@ void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef* htim_pwm)
   /* USER CODE BEGIN TIM12_MspInit 1 */
 
   /* USER CODE END TIM12_MspInit 1 */
+
   }
 
 }
